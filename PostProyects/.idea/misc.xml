@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/acceso_user_fragment.xml" value="0.33" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/auth_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/card_type_proyects.xml" value="0.1296875" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/comment_proyect_fragment.xml" value="0.1675925925925926" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/list_of_follow_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/menu_proyect_fragment.xml" value="0.22" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/my_proyects_fragment.xml" value="0.25" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/post_proyect_fragment.xml" value="0.33" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/proyect_fragment.xml" value="0.25" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/search_proyects_fragment.xml" value="0.16145833333333334" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/splash_fragment.xml" value="0.1675925925925926" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/update_data_post_fragment.xml" value="0.25" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/upload_data_fragment.xml" value="0.33" />
+        <entry key="..\:/Proyecto Unidad 3/PostProyects/app/src/main/res/layout/view_page_fragment.xml" value="0.1675925925925926" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_checkmark.xml" value="0.1695" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_circle_dark.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_circle_solid_white.xml" value="0.1665" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.1205" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1205" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_notifications_black_24dp.xml" value="0.1205" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable-v24/ic_save_filled.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/custom_img.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_angulo_pequeno_hacia_abajo.xml" value="0.171" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_angulo_pequeno_hacia_arriba.xml" value="0.2025" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_arrow_black.xml" value="0.152" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1305" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_arrow_whit_24.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.103" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.191" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_capas.xml" value="0.23" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_comentario_alt.xml" value="0.1395" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_comentario_darck.xml" value="0.162" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_comentario_ligth.xml" value="0.162" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_directorio_darck.xml" value="0.162" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_directorio_light.xml" value="0.162" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_flecha_prev.xml" value="0.216" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_like.xml" value="0.1715" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_like_filled.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_marcador_darck.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_marcador_ligth.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_marcadordarck.xml" value="0.136" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_pulgares_hacia_arriba_dark.xml" value="0.187" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_save.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_save_filled.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/ic_sin_t_tulo_4.xml" value="0.103" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/indicator_active.xml" value="0.144" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/drawable/indicator_inactive.xml" value="0.144" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout-v26/card_type_proyects.xml" value="0.19537037037037036" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/acceso_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/acceso_user_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/activity_menu.xml" value="0.18" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/auth_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/card_proyects.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/card_type_proyects.xml" value="0.33" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/comment_proyect_fragment.xml" value="0.18" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/config_fragment.xml" value="0.175" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/data_user_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/dialog_auth.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/filter_proyects.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/first_screen.xml" value="0.20885416666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/fragment_login.xml" value="0.5" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/fragment_third_screen.xml" value="0.19479166666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/item_container.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/list_of_follow_fragment.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/login_card.xml" value="0.7428571428571429" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_main_fragment.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_proyect_fragment.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_proyects_fragment.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_searcg_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_search_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/menu_things_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/my_proyects_fragment.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/post_proyect_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/proyect_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/proyects_menu.xml" value="0.15" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/proyects_search.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/radio_buttom_item.xml" value="0.20885416666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/register_user_part1_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/register_user_part2_fragment.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/registro_user_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/search_proyects_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/second_screen.xml" value="0.19479166666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/settings_fragment.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/splash_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/third_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/up_data_log.xml" value="0.22" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/upload_data_fragment.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/user_data_fragment.xml" value="0.2" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/layout/view_page_fragment.xml" value="0.16" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/menu/bottom_nav_menu_proyects.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/proyectosAndroid/PostProyects/app/src/main/res/xml/root_preferences.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

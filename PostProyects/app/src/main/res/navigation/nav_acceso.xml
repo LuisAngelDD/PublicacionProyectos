@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_acceso"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.postproyects.ui.view.fragments.MenuMainFragment"
+        android:label="menu_fragment"
+        tools:layout="@layout/menu_main_fragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_accesoUserFragment"
+            app:destination="@id/accesoUserFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_menuFragment_to_proyectFragment"
+            app:destination="@id/proyectFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_menuFragment_to_dataUserFragment"
+            app:destination="@id/dataUserFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_menuFragment_to_postProyectFragment"
+            app:destination="@id/postProyectFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_menuFragment_to_updateDataPostFragment"
+            app:destination="@id/updateDataPostFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.postproyects.ui.view.fragments.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_splashFragment_to_accesoUserFragment"
+            app:destination="@id/accesoUserFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_splashFragment_to_uploadDataFragment"
+            app:destination="@id/uploadDataFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+    </fragment>
+    <fragment
+        android:id="@+id/accesoUserFragment"
+        android:name="com.example.postproyects.ui.view.fragments.AccesoUserFragment"
+        android:label="acceso_user_fragment"
+        tools:layout="@layout/acceso_user_fragment" >
+        <action
+            android:id="@+id/action_accesoUserFragment_to_registroUserFragment"
+            app:destination="@id/registroUserFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_accesoUserFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_accesoUserFragment_to_uploadDataFragment"
+            app:destination="@id/uploadDataFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_accesoUserFragment_to_menuFragment2"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_accesoUserFragment_to_authFragment"
+            app:destination="@id/authFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroUserFragment"
+        android:name="com.example.postproyects.ui.view.fragments.RegistroUserFragment"
+        android:label="registro_user_fragment"
+        tools:layout="@layout/registro_user_fragment" >
+        <action
+            android:id="@+id/action_registroUserFragment_to_accesoUserFragment"
+            app:destination="@id/accesoUserFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_registroUserFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadDataFragment"
+        android:name="com.example.postproyects.ui.view.fragments.UploadDataFragment"
+        android:label="upload_data_fragment"
+        tools:layout="@layout/upload_data_fragment" >
+        <action
+            android:id="@+id/action_uploadDataFragment_to_viewPageFragment"
+            app:destination="@id/viewPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPageFragment"
+        android:name="com.example.postproyects.ui.view.fragments.ViewPageFragment"
+        android:label="view_page_fragment"
+        tools:layout="@layout/view_page_fragment" >
+        <action
+            android:id="@+id/action_viewPageFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popUpTo="@id/nav_acceso" />
+    </fragment>
+    <fragment
+        android:id="@+id/proyectFragment"
+        android:name="com.example.postproyects.ui.view.fragments.MenuProyectFragment"
+        android:label="proyect_fragment"
+        tools:layout="@layout/menu_proyect_fragment" >
+        <action
+            android:id="@+id/action_proyectFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+        <argument android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.postproyects.ui.view.fragments.AuthFragment"
+        android:label="auth_fragment"
+        tools:layout="@layout/auth_fragment" >
+        <action
+            android:id="@+id/action_authFragment_to_uploadDataFragment"
+            app:destination="@id/uploadDataFragment" />
+        <action
+            android:id="@+id/action_authFragment_to_accesoUserFragment"
+            app:destination="@id/accesoUserFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataUserFragment"
+        android:name="com.example.postproyects.ui.view.fragments.DataUserFragment"
+        android:label="data_user_fragment"
+        tools:layout="@layout/data_user_fragment" >
+        <action
+            android:id="@+id/action_dataUserFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+        <action
+            android:id="@+id/action_dataUserFragment_to_accesoUserFragment"
+            app:destination="@id/accesoUserFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+    </fragment>
+    <fragment
+        android:id="@+id/postProyectFragment"
+        android:name="com.example.postproyects.ui.view.fragments.PostProyectFragment"
+        android:label="post_proyect_fragment"
+        tools:layout="@layout/post_proyect_fragment" >
+        <action
+            android:id="@+id/action_postProyectFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popUpTo="@id/nav_acceso" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateDataPostFragment"
+        android:name="com.example.postproyects.ui.view.fragments.UpdateDataPostFragment"
+        android:label="update_data_post_fragment"
+        tools:layout="@layout/update_data_post_fragment" >
+        <argument
+            android:name="cod"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_updateDataPostFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/searchProyectsFragment"
+        android:icon="@drawable/ic_busqueda"
+        android:title="Buscar proyectos" />
+    <item android:id="@+id/listOfFollowFragment"
+        android:icon="@drawable/ic_marcador_ligth"
+        android:title="Siguiendo" />
+    <item
+        android:id="@+id/myProyectsFragment"
+        android:icon="@drawable/ic_directorio_light"
+        android:title="Mis proyectos" />
+</menu>

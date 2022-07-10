@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.fragments.UpdateDataPostFragment">
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/btn_return"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="0"
+            android:src="@drawable/ic_flecha_prev" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:hint="Nombre del proyecto"
+                app:counterEnabled="true"
+                app:counterMaxLength="130"
+                app:errorEnabled="true"
+                app:helperText="Requerido"
+                app:helperTextTextColor="@color/teal_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_proyect"
+                    android:layout_width="320dp"
+                    android:layout_height="140dp"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:inputType="textMultiLine"
+                    android:justificationMode="inter_word"
+                    android:maxLength="130" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/hide_keyboard" />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"
+            android:hint="Tipo de proyecto"
+            app:errorEnabled="true"
+            app:helperText="Requerido"
+            app:helperTextTextColor="@color/teal_700">
+
+            <AutoCompleteTextView
+                android:id="@+id/state_proyect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Estado del proyecto" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_layout_2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:hint="Descripción"
+                app:counterEnabled="true"
+                app:counterMaxLength="350"
+                app:errorEnabled="true"
+                app:helperText="Requerido"
+                app:helperTextTextColor="@color/teal_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/desc_proyect"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:inputType="textMultiLine"
+                    android:justificationMode="inter_word"
+                    android:maxLength="350" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/hide_keyboard" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:text="Actualizar contenido" />
+    </LinearLayout>
+</FrameLayout>

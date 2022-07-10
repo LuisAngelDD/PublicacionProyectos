@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".ui.view.fragments.RegistroUserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text="Bienvenido a &quot;Nombre de la App&quot;"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/label1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:justificationMode="inter_word"
+                    android:text="Hola, supngo que eres nuevo por aqui. Podras comenzar a usar todas las funcionalidades de la app una vez estes registrado y logeado :C"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/teal_700">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/correo"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Correo electronico"
+                        android:inputType="textPersonName" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_2"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="0"
+                    app:endIconMode="password_toggle"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/teal_700"
+                    app:startIconDrawable="@drawable/ic_baseline_lock_24">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Contraseña"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:id="@+id/section_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@+id/lowerCase_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        app:srcCompat="@drawable/ic_checkmark"
+                        app:tint="@color/darkGray" />
+                    <TextView
+                        android:id="@+id/lowerCase_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/lowercase_letters"
+                        android:textColor="@color/darkGray" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/section_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@+id/upperCase_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_checkmark"
+                        app:tint="@color/darkGray" />
+                    <TextView
+                        android:id="@+id/upperCase_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/uppercase_letters"
+                        android:textColor="@color/darkGray" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/section_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@+id/digit_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_checkmark"
+                        app:tint="@color/darkGray" />
+                    <TextView
+                        android:id="@+id/digit_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/digits"
+                        android:textColor="@color/darkGray" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/section_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@+id/specialChar_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_checkmark"
+                        app:tint="@color/darkGray" />
+                    <TextView
+                        android:id="@+id/specialChar_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/special_characters"
+                        android:textColor="@color/darkGray" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/section_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@+id/longChar_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_checkmark"
+                        app:tint="@color/darkGray" />
+                    <TextView
+                        android:id="@+id/longChar_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/long_characters"
+                        android:textColor="@color/darkGray" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/psw_safe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/darkGray"
+                    android:visibility="gone"/>
+                <View
+                    android:id="@+id/strength_level_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/lightGray"
+                    android:visibility="gone"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_3"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/teal_700"
+                    app:endIconMode="password_toggle"
+                    app:startIconDrawable="@drawable/ic_baseline_lock_24">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/repeat_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Ingrese nuevamente su contraseña"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_weight="0"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Registrarse" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/btn_label_sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="¿Ya tienes una cuenta? Inicia sesion!!" />
+
+            </LinearLayout>
+        </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

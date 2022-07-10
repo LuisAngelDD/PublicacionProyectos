@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/listOfFollowFragment">
+    <fragment
+        android:id="@+id/listOfFollowFragment"
+        android:name="com.example.postproyects.ui.view.fragments.menu_main.ListOfFollowFragment"
+        android:label="list_of_follow_fragment"
+        tools:layout="@layout/list_of_follow_fragment" />
+    <fragment
+        android:id="@+id/myProyectsFragment"
+        android:name="com.example.postproyects.ui.view.fragments.menu_main.MyProyectsFragment"
+        android:label="my_proyects_fragment"
+        tools:layout="@layout/my_proyects_fragment" />
+    <fragment
+        android:id="@+id/searchProyectsFragment"
+        android:name="com.example.postproyects.ui.view.fragments.menu_main.SearchProyectsFragment"
+        android:label="search_proyects_fragment"
+        tools:layout="@layout/search_proyects_fragment" />
+</navigation>
